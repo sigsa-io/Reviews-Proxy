@@ -1,0 +1,39 @@
+{
+  "name": "sigsa",
+  "version": "1.0.0",
+  "description": "Sigsa is a web app that simulates an OpenTable restaurant page experience.",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test jest",
+    "react-dev": "webpack -d --watch",
+    "start-server": "nodemon server/index.js",
+    "start-client": "live-server client/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sigsa-io/Reviews-Proxy.git"
+  },
+  "author": "Priyanka Piali Pramanik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sigsa-io/Reviews-Proxy/issues"
+  },
+  "homepage": "https://github.com/sigsa-io/Reviews-Proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy": "^1.17.0",
+    "live-server": "^1.2.1",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6"
+  }
+}
